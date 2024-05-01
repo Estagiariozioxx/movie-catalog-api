@@ -8,11 +8,11 @@ import { Movie } from './movies/movie.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'postgres', // Alterado para o nome do serviço do banco de dados
+      host: 'dpg-copb3tljm4es738er0v0-a', // Alterado para o nome do serviço do banco de dados
       port: 5432,
-      username: 'postgres',
-      password: 'postgres123',
-      database: 'movie_catalog',
+      username: 'postgress_7oc7_user',
+      password: 'o65U3DLHVemBCW0m4nwMobBhQR1YxA5t',
+      database: 'postgress_7oc7',
       autoLoadEntities: true,
       synchronize: true,
       entities: [Movie], // Adicionando a entidade Movie aqui
