@@ -20,7 +20,7 @@ services:
     depends_on:
       - postgres
     environment:
-      DATABASE_URL: postgres://postgres:postgres@postgres:5432/movie_catalog
+      DATABASE_URL: postgres://postgres:postgres123@localhost:5432/movie_catalog
       JWT_SECRET: your_jwt_secret
       REDIS_HOST: redis
       REDIS_PORT: 6379
